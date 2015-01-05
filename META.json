@@ -24,6 +24,7 @@
             "DBIx::Simple" : "0",
             "Exporter::Tidy" : "0",
             "SQL::Interpol" : "0",
+            "perl" : "5.006",
             "strict" : "0",
             "warnings" : "0"
          }
@@ -48,6 +49,6 @@
          "url" : "git://github.com/ap/DBIx-Simple-Interpol"
       }
    },
-   "version" : "1.003"
+   "version" : "1.004"
 }
 

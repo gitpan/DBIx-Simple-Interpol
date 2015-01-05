@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution DBIx-Simple-Interpol,
-version 1.003:
+version 1.004:
 
   monkey-patch DBIx::Simple to use SQL::Interpol
 

@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-
+use 5.006;
 
 use ExtUtils::MakeMaker;
 
@@ -18,6 +18,7 @@ my %WriteMakefileArgs = (
   "DISTNAME" => "DBIx-Simple-Interpol",
   "EXE_FILES" => [],
   "LICENSE" => "perl",
+  "MIN_PERL_VERSION" => "5.006",
   "NAME" => "DBIx::Simple::Interpol",
   "PREREQ_PM" => {
     "DBIx::Simple" => 0,
@@ -32,7 +33,7 @@ my %WriteMakefileArgs = (
     "Test::More" => "0.88",
     "lib" => 0
   },
-  "VERSION" => "1.003",
+  "VERSION" => "1.004",
   "test" => {
     "TESTS" => "t/*.t"
   }
